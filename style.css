@@ -1,6 +1,6 @@
 header{
     grid-area: cabe;
-    background-image: linear-gradient(to right, rgba(127, 255,212, 10.5) , rgb(7, 107, 74, 0.7));/* faz um degrade da cor do elemento */
+    background-image: linear-gradient(to right, rgb(41, 0, 0) , rgba(110, 0, 0, 0.822));/* faz um degrade da cor do elemento */
 }
 main{
     grid-area: prin;
@@ -8,7 +8,7 @@ main{
 }
 aside{
     grid-area: brac;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(145, 50, 50);
 }
 footer{
     grid-area: roda;
@@ -48,7 +48,7 @@ nav a{
 nav a:hover{
     font-size: 6.5rem;/* tamanho do quadrado atras da imagem*/
     color: white;
-    border: solid rgb(71, 92, 15);
+    border: solid rgb(70, 4, 4);
     background: black;
 }
 header{
@@ -68,7 +68,7 @@ header a{
     transition: 1s;
 }
 .caixa_mae{
-    border: solid 2px  rgb(76, 82, 28);
+    border: solid 2px  rgb(107, 3, 3);
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +84,7 @@ header a{
     justify-content: center;
     border-radius: 10px;/* curvatura das bordas*/
     flex-direction: column;
-    box-shadow: 5px 10px 15px aquamarine;/* tamanho e cor do sombreado*/
+    box-shadow: 5px 10px 15px rgb(172, 0, 0);/* tamanho e cor do sombreado*/
     transition: 3s;
 }
 .card img{
@@ -103,7 +103,7 @@ header a{
     padding: 5px;
 }
 .card :hover{
-    background-color: aquamarine;
+    background-color: rgb(83, 0, 0);
 }
 .carrinho{
     width: 60px;
@@ -142,9 +142,9 @@ footer{
 footer a{
     text-decoration: none; 
     font-size: 2.1rem;
-    color: rgb(2, 2, 2);
-    border: solid rgb(0, 0, 0, 0 );
-    background-color: aquamarine;
+    color: rgb(41, 0, 0);
+    border: solid rgb(68, 0, 0);
+    background-color: rgb(110, 0, 0, 0.822);
     transition: 1s;
 }
 .mapa{
@@ -162,4 +162,7 @@ footer a{
 .livros{
     width: 180px;
     border-radius: 5px;
+}
+aside{
+    background-color: rgb(73, 0, 0);
 }
