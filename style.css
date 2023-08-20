@@ -1,17 +1,103 @@
-   *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-background-color: rgb(56, 56, 56);     
-color:aliceblue;  }
-        
-header {
-background-color: aliceblue;
-color: antiquewhite; 
-padding: 20px;
+/* Reset de margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.card{
 
+/* Estilos do cabeçalho */
+.cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #232323;
+    color: rgba(255, 255, 255, 0.863);
+}
+.estrela{
+    height: 80px;
+     right: auto
+}
+.promocao{
+    height:60px;
+    right: auto
+}
+.carrinho{
+    height: 90px;
+    right: auto;
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilos do conteúdo principal */
+.caixa_mae {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #232323;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    background-color: #111;
+}
+
+/* Estilos do rodapé */
+.fut {
+    text-align: center;
+    padding: 20px;
+    background-color: #232323;
+    color: white;
+}
+
+.rodape {
+    width: 80px;
+    height: auto;
 }
